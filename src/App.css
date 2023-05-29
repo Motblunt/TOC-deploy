@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
+body {
+  background-color: #0f1113;
+  padding: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -12,8 +18,7 @@ ul {
 a {
   position: relative;
   color: White;
-  margin-inline: 20px;
-  font-family: "Kanit", sans-serif;
+  margin-inline: 20px;  
   font-size: 15px;
 }
 

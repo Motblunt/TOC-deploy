@@ -2,13 +2,8 @@
     margin-top: 100px;
     height:100%;
     background-repeat: no-repeat;  
-  }
-  
-  body {
-    background-color: #0f1113;
-    padding: 15px;
-  }
-  
+  } 
+    
   .demo-content img {
     width: 32rem; 
   }
@@ -20,13 +15,13 @@
    justify-content: center;
   }
   
-  h1{
+  .name{
     color: white;
     font-weight: 800;
     margin: 0;
   }
   
-  h2{
+  .work{
     background-image: linear-gradient(to right, #ffc6df, #ffb3d5, #ff9fcb, #ff8ac1, #ff73b6);
     background-size: 100%;
     background-clip: text;
@@ -36,4 +31,5 @@
     -moz-text-fill-color: transparent;
     font-weight: 700;
     margin: 0;
+    padding-bottom:125px;
   }

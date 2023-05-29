@@ -9,8 +9,8 @@ const Banner = () => {
              <div className='bg-style'>
         <div className='demo-content'>
           <img src={LogoT} alt="Logo société TOC" />
-          <h1>Théo Cottin</h1>
-          <h2>Développeur Full-Stack Freelance</h2>
+          <h1 className='name'>Théo Cottin</h1>
+          <h2 className='work'>Développeur Full-Stack Freelance</h2>
         </div>
       </div>         
         </div>

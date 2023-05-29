@@ -1,11 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Quote from '../Quote/Quote';
 
 const Home = () => {
     return (
         <div>
             <Banner/>
-            <h1>Ceci est la page d'accueil</h1> 
+            <Quote/>           
                   
         </div>
     );
