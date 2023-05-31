@@ -8,34 +8,36 @@ import Contact from './components/Contact/Contact'
 import Home from './components/Home/Home'
 import LogoTO from './components/Banner/TC Uniquement.png'
 import CV from './Théo Cottin - CV.pdf'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div>
       <Router>
         <div className='display-flex-evenly'>
-          <nav className=''>
-          <ul className='display-flex'>
-            <div className='logo'>
-              <NavLink to='/'><img src={LogoTO} alt="" style={{ textDecoration: 'none' }} /></NavLink>
+          <div className='logo'>
+              <a to='/'><img src={LogoTO} alt="" style={{ textDecoration: 'none' }} /></a>
             </div>
+          <nav className=''>            
+          <ul className='display-flex'>
+            
             <li>
-              <NavLink to='/'><i class="fa-solid fa-house-chimney fa-xs"></i></NavLink>
+              <NavLink className="nav-style" to='/'><i class="fa-solid fa-house"></i></NavLink>
             </li>
             <li>
-              <NavLink to="/services" activeClassName="active">Services</NavLink>
+              <NavLink className="nav-style" to="/services" activeClassName="active">Services</NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
+              <NavLink className="nav-style"  to="/portfolio" activeClassName="active">Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="/competences" activeClassName="active">Compétences</NavLink>
+              <NavLink className="nav-style" to="/competences" activeClassName="active">Compétences</NavLink>
             </li>
             <li>
-              <NavLink to="/avis" activeClassName="active">Avis</NavLink>
+              <NavLink className="nav-style" to="/avis" activeClassName="active">Avis</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+              <NavLink className="nav-style" to="/contact" activeClassName="active">Contact</NavLink>
             </li>
           </ul>
           
@@ -56,8 +58,9 @@ function App() {
           <Route path='/avis' element={<Avis />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+      <Footer/>
       </Router>
-
+      
     </div>
   );
 }

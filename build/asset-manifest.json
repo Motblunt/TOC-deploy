@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b409d32.css",
+    "main.js": "/static/js/main.499e6e95.js",
+    "static/media/Théo Cottin - CV.pdf": "/static/media/Théo Cottin - CV.485285cf0f04a31333b4.pdf",
+    "static/media/Logo_TC-removebg-preview.png": "/static/media/Logo_TC-removebg-preview.69cf34d47c7b0232ba6b.png",
+    "static/media/TC Uniquement.png": "/static/media/TC Uniquement.792c03a3c09ddfe63f75.png",
+    "index.html": "/index.html",
+    "main.9b409d32.css.map": "/static/css/main.9b409d32.css.map",
+    "main.499e6e95.js.map": "/static/js/main.499e6e95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b409d32.css",
+    "static/js/main.499e6e95.js"
+  ]
+}

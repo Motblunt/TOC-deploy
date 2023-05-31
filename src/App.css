@@ -15,14 +15,14 @@ ul {
   list-style: none;
 }
 
-a {
+.nav-style {
   position: relative;
   color: White;
   margin-inline: 20px;  
   font-size: 15px;
 }
 
-a::before {
+.nav-style::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -36,12 +36,12 @@ a::before {
   transition: transform 0.3s ease-in-out;
 }
 
-a:hover::before {
+.nav-style:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-a.active {
+.nav-style.active {
   border-bottom: 2px solid #ff9fcb;
 }
 
@@ -58,6 +58,7 @@ img {
   justify-content: center;
   align-items: center;
   padding-left: 70px;
+  gap: 20px;
 }
 
 nav {
@@ -69,13 +70,25 @@ nav {
 .lien a {
   text-decoration: none;
   font-size: 20px;
-  
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .display-flex-evenly {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px; /* Ajoute un espace de 50px en haut pour compenser la hauteur de la navbar fixe */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(15, 17, 19, 0.9);
+  gap: 75px;
 }
 
 .lien {
