@@ -12,8 +12,7 @@ const Footer = () => {
 
     return (
         <div className='footer-container'>           
-            <div className="branding">   
-                <a onClick={() => handleNavigation('/')}><img src={LOGOTO} alt="Logo TOC" /></a>
+            <div className="branding">                 
                 <h3>TOC S.A.S.U</h3>
                 <p>Théo Cottin</p>
                 <p>Développeur Web FullStack Freelance</p>

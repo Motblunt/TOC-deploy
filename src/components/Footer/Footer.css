@@ -2,7 +2,7 @@
   display: flex;
   gap: 5rem;
   margin-left: 5rem;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin-top: 8rem;
 }
@@ -24,71 +24,74 @@ p {
 }
 
 .footer-container a,
-ul, p {
+ul,
+p {
   list-style: none;
   text-decoration: none;
   padding-left: 0;
   font-size: 14px;
 }
 
-.footer-container a{
-    display: flex;
-    width: 150px;   
-    padding: 3px; 
+.footer-container a {
+  display: flex;
+  width: 150px;
+  padding: 3px;
 }
 
-.bg-fade{
-    color: inherit;
-    transition: background-color 0.5s ease;
+.bg-fade {
+  color: inherit;
+  transition: background-color 0.5s ease;
 }
 
-.bg-fade:hover{
-    color: white;
-    background-color: #ff9fcb;
-    cursor: pointer;
+.bg-fade:hover {
+  color: white;
+  background-color: #ff9fcb;
+  cursor: pointer;
 }
 
 .navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.navigation a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 6px;
+.navigation a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6px;
 }
 
 .reseau {
-    display: flex;
-    flex-direction: column;    
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.reseau a{
-    display: flex;
-    flex-direction: column;    
-    align-items: flex-end;    
-    margin-bottom: 6px;
+.reseau a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 6px;
 }
 
-.societe{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.societe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .societe a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 6px;
 }
 
-.branding{
-  margin-right: 15rem;
+.branding {
+  padding: 10px;
+  margin-right: 9rem;
+  border: 1px solid #a0aec0;
+  border-top: none;
+  border-right: none;
 }
-
-

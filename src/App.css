@@ -75,6 +75,7 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  color: white;
 }
 
 .display-flex-evenly {
