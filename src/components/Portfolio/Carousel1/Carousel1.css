@@ -11,8 +11,9 @@
   color: white;
   font-size: 20px;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;      
 }
-
 .slides {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -48,12 +49,11 @@
 .prev-btn,
 .next-btn {
   position: absolute;
-  top: 73%;
+  top: 74%;
   transform: translateY(-50%);
   background: none;
   border: none;
-  font-size: 28px;  
-  color: #ff9fcb;
+  font-size: 28px;   
   cursor: pointer;  
 }
 
@@ -71,4 +71,8 @@
 
 .next-btn {
   right: 10px;
+}
+
+.fa-solid{
+  color: white;  
 }
