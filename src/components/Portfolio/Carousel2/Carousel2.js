@@ -27,7 +27,7 @@ const Carousel2 = () => {
 
   return (    
        <div className="carousel-2">
-        <h1>Projet OpenClassrooms : Sophie Bluel : Architecte d'intérieur.</h1>
+        <h1>Projet OpenClassrooms : Sophie Bluel : Architecte d'intérieur</h1>
       <div className="slides">
         {images.map((image, index) => (
           <img
@@ -39,8 +39,8 @@ const Carousel2 = () => {
         ))}
       </div>
       <div className="counter">{currentIndex + 1} / {images.length}</div>
-      <button className="prev-btn" onClick={goToPrevSlide}><i class="fa-solid fa-arrow-left fa-sm"></i></button>
-      <button className="next-btn" onClick={goToNextSlide}><i class="fa-solid fa-arrow-right fa-sm"></i></button>
+      <button className="prev-btn-2" onClick={goToPrevSlide}><i class="black fa-solid fa-angle-left "></i></button>
+      <button className="next-btn-2" onClick={goToNextSlide}><i class="black fa-solid fa-angle-right "></i></button>
     </div>    
   );
 };

@@ -1,36 +1,57 @@
-.bg-style{ 
-    margin-top: 100px;
-    height:100%;
-    background-repeat: no-repeat;  
-  } 
-    
-  .demo-content img {
-    width: 32rem; 
-  }
-  
-  .demo-content  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   justify-content: center;
-   margin-top: 230px;
-  }
-  
-  .name{
-    color: white;
-    font-weight: 800;
-    margin: 0;
-  }
-  
-  .work{
-    background-image: linear-gradient(to right, #ffc6df, #ffb3d5, #ff9fcb, #ff8ac1, #ff73b6);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-weight: 700;
-    margin: 0;
-    padding-bottom:125px;
-  }
+.bg-style {
+  margin-top: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.demo-content img {
+  width: 32rem;
+}
+
+.demo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+.name {
+  color: white;
+  font-weight: 800;
+  margin: 0;
+}
+
+.work {
+  background-image: linear-gradient(
+    to right,
+    #ffc6df,
+    #ffb3d5,
+    #ff9fcb,
+    #ff8ac1,
+    #ff73b6
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 125px;
+}
+
+.bg-image {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 10% bottom 50%;
+  background-image: url("./pexels-mati-mango-5952651.jpg");
+}
+
+.main-content {
+  height: 100%;
+  background-color: #0f1113;
+  opacity: 0.9;
+}

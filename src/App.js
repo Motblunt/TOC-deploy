@@ -16,7 +16,7 @@ function App() {
       <Router>
         <div className='display-flex-evenly'>
           <div className='logo'>
-              <a to='/'><img src={LogoTO} alt="" style={{ textDecoration: 'none' }} /></a>
+              <a to='/'><img className='logo-size' src={LogoTO} alt="" style={{ textDecoration: 'none' }} /></a>
             </div>
           <nav className=''>            
           <ul className='display-flex'>

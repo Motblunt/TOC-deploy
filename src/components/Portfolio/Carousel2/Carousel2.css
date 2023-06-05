@@ -1,3 +1,6 @@
+.black{
+  color: black;
+}
 .carousel-2 {
     position: relative;
     overflow: hidden;
@@ -10,11 +13,9 @@
   .carousel-2 h1{
     color: white;
     font-size: 20px;
-    padding-bottom: 10px;
-    color: #c6e2ff;   
+    padding-bottom: 10px;    
     display: flex;
     justify-content: center;
-
   }
   
   .slides {
@@ -49,10 +50,10 @@
     font-weight: 600px;
   }
   
-  .prev-btn,
-  .next-btn {
+  .prev-btn-2,
+  .next-btn-2 {
     position: absolute;
-    top: 73%;
+    top: 69%;
     transform: translateY(-50%);
     background: none;
     border: none;
@@ -61,19 +62,20 @@
     cursor: pointer;  
   }
   
-  .next-btn :hover{
+  .next-btn-2 :hover{
     opacity: 0.4;
   }
   
-  .prev-btn :hover{
+  .prev-btn-2 :hover{
     opacity: 0.4;
   }
   
-  .prev-btn {
+  .prev-btn-2 {
     left: 10px;
   }
   
-  .next-btn {
+  .next-btn-2 {
     right: 10px;
   }
+
   

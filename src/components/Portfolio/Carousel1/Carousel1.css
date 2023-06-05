@@ -49,7 +49,7 @@
 .prev-btn,
 .next-btn {
   position: absolute;
-  top: 74%;
+  top: 77%;
   transform: translateY(-50%);
   background: none;
   border: none;
@@ -67,12 +67,11 @@
 
 .prev-btn {
   left: 10px;
+  color: white; 
 }
 
 .next-btn {
   right: 10px;
+  color: white; 
 }
 
-.fa-solid{
-  color: white;  
-}

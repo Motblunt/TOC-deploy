@@ -23,7 +23,7 @@
 
 .carousel2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: flex-end;
   padding-right: 5rem;
 }
@@ -51,4 +51,69 @@
   background-color: white;
   margin-left: 5rem;
   margin-top: 1.5rem;
+}
+
+text-c2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.carousel2 p {
+  width: 45rem;
+  margin-right: 5rem;
+  text-align: end;
+}
+
+.carousel2 h2 {  
+  margin-right: 5rem;
+  text-align: end;
+  color: white;
+  font-size: 20px;
+}
+
+.used-tools-2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-align: end;
+}
+
+.used-tools-2 span img{
+  padding-left: 4rem;
+  width: 70px;
+}
+
+.line-2 {
+  width: 130%;
+  height: 1px;
+  background-color: white;
+  margin-left: -20rem;
+  margin-top: 1.5rem;
+}
+
+.carousel3 {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5rem;
+}
+
+.carousel3 h2 {
+  margin-left: 5rem;
+  width: 50rem;  
+  color: white;
+  font-size: 20px;  
+}
+
+.carousel3 p {
+  margin-left: 5rem;
+  width: 45rem;  
+}
+
+.font-p3 {
+  font-size: 16px;
+  padding-bottom: 1rem;
 }

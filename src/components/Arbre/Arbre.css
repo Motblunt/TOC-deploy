@@ -1,0 +1,51 @@
+h2 {
+  color: #a0aec0;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 3rem;    
+}
+
+h3 {
+  color: #a0aec0;
+  margin: 0;  
+  font-size: 14px;
+}
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10rem;
+
+}
+
+.dividing {
+  width: 1px; /* Largeur de la barre */
+  height: 165px; /* Hauteur de la barre */
+  background-color: white; /* Couleur de la barre */
+  margin-top: 51px;
+}
+
+.integration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integration-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-content{
+    display: flex;
+    gap: 8rem;
+}
+
+.conception{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
