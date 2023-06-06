@@ -14,7 +14,7 @@ h3 {
 
 .main-wrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:center;   
 }
 
@@ -69,4 +69,53 @@ h3 {
 .border-wrapper{
   display: flex;
   gap: 1rem;
+}
+
+.center{
+  display: flex;
+  gap: 3rem;  
+}
+
+.dividing-3{
+  width: 1px; /* Largeur de la barre */
+  height: 6rem; /* Hauteur de la barre */
+  background-color: white; /* Couleur de la barre */  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pos-rel{
+  position: relative;
+  left: 12rem;
+}
+
+.pos-rel-right{
+  position: relative;
+  right: 12rem;
+}
+
+.wordpress{
+  width: 24.5rem;
+}
+
+.dividing-4{
+  height: 22rem;
+  width: 1px;
+  background-color: white;
+}
+
+.row-gap{
+  row-gap: 1rem;
+}
+
+.dividing-5{
+  height: 3rem;
+  width: 1px;
+  background-color: white;
 }
