@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TOC-deploy/static/css/main.b99e6ca0.css",
-    "main.js": "/TOC-deploy/static/js/main.860eb991.js",
+    "main.css": "/TOC-deploy/static/css/main.a28b7cda.css",
+    "main.js": "/TOC-deploy/static/js/main.dd9aa41b.js",
     "static/media/pexels-mati-mango-5952651.jpg": "/TOC-deploy/static/media/pexels-mati-mango-5952651.efe6a969b553efe5fd14.jpg",
     "static/media/precis.jpg": "/TOC-deploy/static/media/precis.50cfc04cdb777903811a.jpg",
     "static/media/Sophie2.png": "/TOC-deploy/static/media/Sophie2.1739cd7029eb7b5c73ae.png",
@@ -50,11 +50,11 @@
     "static/media/javascript-1.svg": "/TOC-deploy/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/LogoHTML5-144.svg": "/TOC-deploy/static/media/LogoHTML5-144.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/icons8-vue-js.svg": "/TOC-deploy/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.b99e6ca0.css.map": "/TOC-deploy/static/css/main.b99e6ca0.css.map",
-    "main.860eb991.js.map": "/TOC-deploy/static/js/main.860eb991.js.map"
+    "main.a28b7cda.css.map": "/TOC-deploy/static/css/main.a28b7cda.css.map",
+    "main.dd9aa41b.js.map": "/TOC-deploy/static/js/main.dd9aa41b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99e6ca0.css",
-    "static/js/main.860eb991.js"
+    "static/css/main.a28b7cda.css",
+    "static/js/main.dd9aa41b.js"
   ]
 }
