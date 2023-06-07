@@ -6,23 +6,50 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(15, 17, 19, 0.9);
+  padding: 10px;  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.logo-size {
+  width: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
-}
-
-ul {
-  list-style: none;
-}
-
-.nav-style {
   position: relative;
-  color: White;
-  margin-inline: 20px;  
-  font-size: 15px;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-.nav-style::before {
+nav ul li a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -36,35 +63,13 @@ ul {
   transition: transform 0.3s ease-in-out;
 }
 
-.nav-style:hover::before {
+nav ul li a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.nav-style.active {
+nav ul li a.active {
   border-bottom: 2px solid #ff9fcb;
-}
-
-.fa-house-heart {
-  color: white;
-}
-
-.logo-size {
-  width: 80px;
-}
-
-.display-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 70px;
-  gap: 20px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .lien a {
@@ -78,30 +83,43 @@ nav {
   color: white;
 }
 
-.display-flex-evenly {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px; /* Ajoute un espace de 50px en haut pour compenser la hauteur de la navbar fixe */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  background-color: rgba(15, 17, 19, 0.9);
-  gap: 75px;
-}
-
 .lien {
   background-color: #ff9fcb;
-  width: fit-content; 
-  border-radius: 10px;  
+  width: fit-content;
+  border-radius: 10px;
   margin-left: 100px;
   height: 50px;
   display: flex;
   align-items: center;
 }
 
-.lien:hover{
+.lien:hover {
   background-color: #ff73b6;
+}
+
+.content {
+  margin-top: 90px; /* Ajoute un espace pour compenser la hauteur de la navbar fixe */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .lien {
+    margin: 10px 0;
+  }
+
+  .content {
+    margin-top: 70px;
+  }
 }

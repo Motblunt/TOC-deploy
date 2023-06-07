@@ -5,7 +5,7 @@ body {
   /* center the blockquote in the page */
   .blockquote-wrapper {
      display: flex;
-     height: 60vh;
+     height: 50vh;
      padding: 0 20px;
   }
   
@@ -65,6 +65,7 @@ body {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 5rem;
+    color: #a0aec0;
   }
   
   /* increase header size after 600px */
