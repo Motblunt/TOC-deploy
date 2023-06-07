@@ -21,3 +21,9 @@
   width: 100px;
   height: 100px;
 }
+
+.card-wrapper{
+  display: flex;
+  gap: 2rem;
+
+}

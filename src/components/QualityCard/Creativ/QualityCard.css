@@ -1,0 +1,17 @@
+.card-wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+.card-size {
+  height: 320px;
+  width: 210px;
+  border-radius: 10px;
+}
+
+.background-image {
+  background-image: url("./organise.jpg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

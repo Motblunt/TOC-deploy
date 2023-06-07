@@ -10,6 +10,7 @@ import LogoTO from './components/Banner/TC Uniquement.png'
 import CV from './Théo Cottin - CV.pdf'
 import Footer from './components/Footer/Footer';
 
+
 function App() {
   return (
     <div>
