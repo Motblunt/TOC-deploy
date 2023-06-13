@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/TOC-deploy/static/css/main.a28b7cda.css",
-    "main.js": "/TOC-deploy/static/js/main.dd9aa41b.js",
-    "static/media/pexels-mati-mango-5952651.jpg": "/TOC-deploy/static/media/pexels-mati-mango-5952651.efe6a969b553efe5fd14.jpg",
+    "main.css": "/TOC-deploy/static/css/main.acd06b64.css",
+    "main.js": "/TOC-deploy/static/js/main.82087a6d.js",
     "static/media/precis.jpg": "/TOC-deploy/static/media/precis.50cfc04cdb777903811a.jpg",
     "static/media/Sophie2.png": "/TOC-deploy/static/media/Sophie2.1739cd7029eb7b5c73ae.png",
     "static/media/Sophie5.png": "/TOC-deploy/static/media/Sophie5.ed17b9b63656589caf21.png",
@@ -23,6 +22,7 @@
     "static/media/Booki1.png": "/TOC-deploy/static/media/Booki1.3ab2069053054d75bd0f.png",
     "static/media/Nina2.png": "/TOC-deploy/static/media/Nina2.870e504c20ee68798b01.png",
     "static/media/Kasa3.png": "/TOC-deploy/static/media/Kasa3.1982a4e35864dee3f207.png",
+    "static/media/programming.webp": "/TOC-deploy/static/media/programming.4d6d89a368ca1f1692eb.webp",
     "static/media/Nina4.png": "/TOC-deploy/static/media/Nina4.11f3a94d07e7c5d90130.png",
     "static/media/Sophie3.png": "/TOC-deploy/static/media/Sophie3.2127f191619fc752cf44.png",
     "static/media/Logo_TC-removebg-preview.png": "/TOC-deploy/static/media/Logo_TC-removebg-preview.69cf34d47c7b0232ba6b.png",
@@ -46,15 +46,17 @@
     "static/media/LogoMongodb.svg": "/TOC-deploy/static/media/LogoMongodb.ec5b2fbd7dbe9cce6b93be1b3ad2ea6c.svg",
     "static/media/Logo-Github.svg": "/TOC-deploy/static/media/Logo-Github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/icons8-adobe-illustrator.svg": "/TOC-deploy/static/media/icons8-adobe-illustrator.d2a5b8664dbcc4f49852cf5f9e53c811.svg",
+    "static/media/tailwindcss-icon.svg": "/TOC-deploy/static/media/tailwindcss-icon.017e1e304e12384d156d384f40a4b5f8.svg",
     "static/media/npm.svg": "/TOC-deploy/static/media/npm.5066c092080d10750a0352c3a2f64c6c.svg",
     "static/media/javascript-1.svg": "/TOC-deploy/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/LogoHTML5-144.svg": "/TOC-deploy/static/media/LogoHTML5-144.a026abbb678246d70ee9b70e4aee972c.svg",
+    "static/media/angular-icon.svg": "/TOC-deploy/static/media/angular-icon.00d10ea694079f70b937fd1d5d7afc20.svg",
     "static/media/icons8-vue-js.svg": "/TOC-deploy/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.a28b7cda.css.map": "/TOC-deploy/static/css/main.a28b7cda.css.map",
-    "main.dd9aa41b.js.map": "/TOC-deploy/static/js/main.dd9aa41b.js.map"
+    "main.acd06b64.css.map": "/TOC-deploy/static/css/main.acd06b64.css.map",
+    "main.82087a6d.js.map": "/TOC-deploy/static/js/main.82087a6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a28b7cda.css",
-    "static/js/main.dd9aa41b.js"
+    "static/css/main.acd06b64.css",
+    "static/js/main.82087a6d.js"
   ]
 }
