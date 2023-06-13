@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Footer.css';
-import LOGOTO from '../Banner/TC Uniquement.png'
+import '../../CSS/Footer.css';
 
 const Footer = () => {
     const navigate = useNavigate();

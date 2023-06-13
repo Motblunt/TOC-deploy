@@ -1,5 +1,5 @@
 import React from 'react';
-import './QuoteComp.css'
+import '../../CSS/QuoteComp.css'
 
 const QuoteComp = () => {
     return (

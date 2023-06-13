@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import Services from './components/Services/Services';
-import Portfolio from './components/Portfolio/Portfolio';
-import Competences from './components/Competences/Competences';
-import Avis from './components/Avis/Avis';
-import Contact from './components/Contact/Contact';
-import Home from './components/Home/Home';
-import LogoTO from './components/Banner/TC Uniquement.png';
+import Services from './Pages/Services';
+import Portfolio from './Pages/Portfolio';
+import Competences from './Pages/Competences';
+import Avis from './Pages/Avis';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import LogoTO from './Asset/TC Uniquement.png';
 import CV from './Théo Cottin - CV.pdf';
 import Footer from './components/Footer/Footer';
 

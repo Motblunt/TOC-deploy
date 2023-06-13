@@ -1,15 +1,15 @@
 import React from 'react';
-import './Arbre.css'
-import LogoHTML from './LogoHTML5-144.svg'
-import LogoCss3 from './icons8-css3-144.svg'
-import LogoPhotoshop from './icons8-photoshop.svg'
-import LogoAI from './icons8-adobe-illustrator.svg'
-import LogoJS from './LogoJS.svg'
-import LogoReact from './LogoReact.svg'
-import LogoVuejs from './icons8-vue-js.svg'
-import LogoWordpress from './LogoWordpress.svg'
-import LogoNodejs from './LogoNodejs.svg'
-import LogoMongodb from './LogoMongodb.svg'
+import '../../CSS/Arbre.css'
+import LogoHTML from '../../Asset/LogoHTML5-144.svg'
+import LogoCss3 from '../../Asset/icons8-css3-144.svg'
+import LogoPhotoshop from '../../Asset/icons8-photoshop.svg'
+import LogoAI from '../../Asset/icons8-adobe-illustrator.svg'
+import LogoJS from '../../Asset/LogoJS.svg'
+import LogoReact from '../../Asset/LogoReact.svg'
+import LogoVuejs from '../../Asset/icons8-vue-js.svg'
+import LogoWordpress from '../../Asset/LogoWordpress.svg'
+import LogoNodejs from '../../Asset/LogoNodejs.svg'
+import LogoMongodb from '../../Asset/LogoMongodb.svg'
 
 
 const Arbre = () => {

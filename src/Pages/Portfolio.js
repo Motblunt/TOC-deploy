@@ -1,21 +1,21 @@
 import React from 'react';
-import './Portfolio.css'
-import Carousel1 from './Carousel1/Carousel1';
-import Carousel2 from './Carousel2/Carousel2';
-import Carousel3 from './Carousel3/Carousel3';
-import Carousel4 from './Carousel4/Carousel4';
-import Logo1 from './Img/Logo/audit lighthouse.svg'
-import Logo2 from './Img/Logo/chrome-devtools.svg'
-import Logo3 from './Img/Logo/LogoWave3.png'
-import Logo4 from './Img/Logo/logo-javascript.svg'
-import Logo5 from './Img/Logo/nodejs-ar21.svg'
-import Logo6 from './Img/Logo/npm.svg'
-import Logo7 from './Img/Logo/Logo-CSS3.svg'
-import Logo8 from './Img/Logo/Logo-HTML5.svg'
-import Logo9 from './Img/Logo/Logo-Github.svg'
-import Logo10 from './Img/Logo/javascript-1.svg'
-import Logo11 from './Img/Logo/react-2.svg'
-import Logo12 from './Img/Logo/sass-1.svg'
+import '../components/Portfolio/Portfolio.css'
+import Carousel1 from '../components/Portfolio/Carousel1/Carousel1';
+import Carousel2 from '../components/Portfolio/Carousel2/Carousel2';
+import Carousel3 from '../components/Portfolio/Carousel3/Carousel3';
+import Carousel4 from '../components/Portfolio/Carousel4/Carousel4';
+import Logo1 from '../components/Portfolio/Img/Logo/audit lighthouse.svg'
+import Logo2 from '../components/Portfolio/Img/Logo/chrome-devtools.svg'
+import Logo3 from '../components/Portfolio/Img/Logo/LogoWave3.png'
+import Logo4 from '../components/Portfolio/Img/Logo/logo-javascript.svg'
+import Logo5 from '../components/Portfolio/Img/Logo/nodejs-ar21.svg'
+import Logo6 from '../components/Portfolio/Img/Logo/npm.svg'
+import Logo7 from '../components/Portfolio/Img/Logo/Logo-CSS3.svg'
+import Logo8 from '../components/Portfolio/Img/Logo/Logo-HTML5.svg'
+import Logo9 from '../components/Portfolio/Img/Logo/Logo-Github.svg'
+import Logo10 from '../components/Portfolio/Img/Logo/javascript-1.svg'
+import Logo11 from '../components/Portfolio/Img/Logo/react-2.svg'
+import Logo12 from '../components/Portfolio/Img/Logo/sass-1.svg'
 
 const Portfolio = () => {
     return (
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className='carousel2'>
-                <Carousel4/>
+                <Carousel4 />
                 <div className='text-c2'>
                     <h2>Créez une application web avec React</h2>
                     <p className='font-p'>Dans l'ensemble, ce projet m'a permis de renforcer mes compétences en développement d'applications web avec React, en gestion de projet, en résolution de problèmes et éventuellement en collaboration, ce qui m'a préparé à de futurs projets et opportunités dans le domaine du développement web.</p>
