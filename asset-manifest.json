@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TOC-deploy/static/css/main.acd06b64.css",
-    "main.js": "/TOC-deploy/static/js/main.82087a6d.js",
+    "main.css": "/TOC-deploy/static/css/main.fdc8c683.css",
+    "main.js": "/TOC-deploy/static/js/main.27b5b02b.js",
     "static/media/precis.jpg": "/TOC-deploy/static/media/precis.50cfc04cdb777903811a.jpg",
     "static/media/Sophie2.png": "/TOC-deploy/static/media/Sophie2.1739cd7029eb7b5c73ae.png",
     "static/media/Sophie5.png": "/TOC-deploy/static/media/Sophie5.ed17b9b63656589caf21.png",
@@ -26,6 +26,8 @@
     "static/media/Nina4.png": "/TOC-deploy/static/media/Nina4.11f3a94d07e7c5d90130.png",
     "static/media/Sophie3.png": "/TOC-deploy/static/media/Sophie3.2127f191619fc752cf44.png",
     "static/media/Logo_TC-removebg-preview.png": "/TOC-deploy/static/media/Logo_TC-removebg-preview.69cf34d47c7b0232ba6b.png",
+    "static/media/contour-de-forme-de-cercle.png": "/TOC-deploy/static/media/contour-de-forme-de-cercle.907762b4f096987547e4.png",
+    "static/media/IMG_me.jpg": "/TOC-deploy/static/media/IMG_me.6b972d5ff13ad107a2b2.jpg",
     "static/media/LogoWave3.png": "/TOC-deploy/static/media/LogoWave3.61a0206593da73ea18e1.png",
     "static/media/TC Uniquement.png": "/TOC-deploy/static/media/TC Uniquement.792c03a3c09ddfe63f75.png",
     "static/media/LogoReact.svg": "/TOC-deploy/static/media/LogoReact.ae62622598f39552abdcdb023e554c6f.svg",
@@ -52,11 +54,11 @@
     "static/media/LogoHTML5-144.svg": "/TOC-deploy/static/media/LogoHTML5-144.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/angular-icon.svg": "/TOC-deploy/static/media/angular-icon.00d10ea694079f70b937fd1d5d7afc20.svg",
     "static/media/icons8-vue-js.svg": "/TOC-deploy/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.acd06b64.css.map": "/TOC-deploy/static/css/main.acd06b64.css.map",
-    "main.82087a6d.js.map": "/TOC-deploy/static/js/main.82087a6d.js.map"
+    "main.fdc8c683.css.map": "/TOC-deploy/static/css/main.fdc8c683.css.map",
+    "main.27b5b02b.js.map": "/TOC-deploy/static/js/main.27b5b02b.js.map"
   },
   "entrypoints": [
-    "static/css/main.acd06b64.css",
-    "static/js/main.82087a6d.js"
+    "static/css/main.fdc8c683.css",
+    "static/js/main.27b5b02b.js"
   ]
 }
