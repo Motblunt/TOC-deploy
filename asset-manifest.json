@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TOC-deploy/static/css/main.fdc8c683.css",
-    "main.js": "/TOC-deploy/static/js/main.27b5b02b.js",
+    "main.css": "/TOC-deploy/static/css/main.1fb85c73.css",
+    "main.js": "/TOC-deploy/static/js/main.f802831f.js",
     "static/media/precis.jpg": "/TOC-deploy/static/media/precis.50cfc04cdb777903811a.jpg",
     "static/media/Sophie2.png": "/TOC-deploy/static/media/Sophie2.1739cd7029eb7b5c73ae.png",
     "static/media/Sophie5.png": "/TOC-deploy/static/media/Sophie5.ed17b9b63656589caf21.png",
@@ -54,11 +54,11 @@
     "static/media/LogoHTML5-144.svg": "/TOC-deploy/static/media/LogoHTML5-144.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/angular-icon.svg": "/TOC-deploy/static/media/angular-icon.00d10ea694079f70b937fd1d5d7afc20.svg",
     "static/media/icons8-vue-js.svg": "/TOC-deploy/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.fdc8c683.css.map": "/TOC-deploy/static/css/main.fdc8c683.css.map",
-    "main.27b5b02b.js.map": "/TOC-deploy/static/js/main.27b5b02b.js.map"
+    "main.1fb85c73.css.map": "/TOC-deploy/static/css/main.1fb85c73.css.map",
+    "main.f802831f.js.map": "/TOC-deploy/static/js/main.f802831f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdc8c683.css",
-    "static/js/main.27b5b02b.js"
+    "static/css/main.1fb85c73.css",
+    "static/js/main.f802831f.js"
   ]
 }
